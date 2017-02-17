@@ -1,0 +1,32 @@
+#!/usr/bin/make -f
+
+include /usr/share/cdbs/1/rules/debhelper.mk
+
+# note: the recommended version is java-7-oracle.
+
+JAVA_HOME := /usr/lib/jvm/default-java
+
+DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
+
+DEB_PHONY_RULES += before-mvn-build mvn-build after-mvn-build
+
+#override_dh_auto_configure:
+#	dh_auto_configure
+#	sed 's@DEB_HOST_MULTIARCH@/$(DEB_HOST_MULTIARCH)/g' \
+#		debian/libhadoop-2.7.links.in > debian/libhadoop-2.7.links
+
+common-build-arch common-build-indep:: maven-sanity-check debian/stamp-maven-build
+
+debian/stamp-maven-build: before-mvn-build mvn-build after-mvn-build
+
+maven-sanity-check:
+
+mvn-build:
+	mvn package -Pdist,native -DskipTests -Dtar -Drequire.snappy -Drequire.openssl -Dmaven.javadoc.skip=true -Dmaven.repo.local=debian/repo
+
+before-mvn-build:
+after-mvn-build:
+
+cleanbuilddir:: maven-sanity-check
+	mvn clean -Dmaven.repo.local=debian/repo
+	$(RM) -r debian/stamp-maven-build

@@ -1,0 +1,3 @@
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/libexec/mapred-config.sh usr/share/hadoop-2.7/libexec
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce usr/share/hadoop-2.7
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/doc/hadoop/mapreduce usr/share/doc/hadoop-mapreduce-2.7

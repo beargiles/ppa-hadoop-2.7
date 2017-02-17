@@ -1,0 +1,5 @@
+hadoop-2.7 (2.7.1-snowflake.1) UNRELEASED; urgency=medium
+
+  * initial version.
+
+ -- Bear Giles <bgiles@invariantproperties.com>  Tue, 14 Feb 2017 17:20:03 -0700

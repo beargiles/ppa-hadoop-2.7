@@ -1,0 +1,10 @@
+hadoop-client/target/hadoop-client-2.7.1/share/hadoop/client usr/share/hadoop-2.7.1
+hadoop-hdfs-project/hadoop-hdfs-client/target/hadoop-hdfs-client-2.8.0-SNAPSHOT.jar usr/share/hadoop-2.7/client
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-app-2.7.1.jar usr/share/hadoop-2.7/client
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.7.1.jar usr/share/hadoop-2.7/client
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.7.1.jar usr/share/hadoop-2.7/client
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-2.7.1.jar usr/share/hadoop-2.7/client
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-hs-plugins-2.7.1.jar usr/share/hadoop-2.7/client
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-jobclient-2.7.1.jar usr/share/hadoop-2.7/client
+hadoop-mapreduce-project/target/hadoop-mapreduce-2.7.1/share/hadoop/mapreduce/hadoop-mapreduce-client-shuffle-2.7.1.jar usr/share/hadoop-2.7/client
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/share/hadoop/yarn/hadoop-yarn-client-2.7.1.jar usr/share/hadoop-2.7/client

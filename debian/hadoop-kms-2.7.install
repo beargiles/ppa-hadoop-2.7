@@ -1,0 +1,3 @@
+hadoop-dist/target/hadoop-2.7.1/libexec/kms-config.sh usr/share/hadoop-2.7/libexec
+hadoop-dist/target/hadoop-2.7.1/share/hadoop/kms usr/share/hadoop-2.7
+

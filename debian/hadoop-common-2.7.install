@@ -1,0 +1,8 @@
+hadoop-dist/target/hadoop-2.7.1/etc/hadoop/core-site.xml etc/hadoop
+hadoop-dist/target/hadoop-2.7.1/etc/hadoop/hdfs-site.xml etc/hadoop
+hadoop-dist/target/hadoop-2.7.1/etc/hadoop/yarn-site.xml etc/hadoop
+hadoop-dist/target/hadoop-2.7.1/etc/hadoop/hadoop-policy.xml etc/hadoop
+hadoop-dist/target/hadoop-2.7.1/etc/hadoop/mapred-site.xml.template etc/hadoop
+hadoop-dist/target/hadoop-2.7.1/etc/hadoop/ssl-client.xml.example etc/hadoop
+hadoop-dist/target/hadoop-2.7.1/etc/hadoop/container-executor.cfg etc/hadoop
+hadoop-dist/target/hadoop-2.7.1/share/hadoop/common usr/share/hadoop-2.7

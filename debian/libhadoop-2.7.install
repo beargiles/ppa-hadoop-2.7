@@ -1,0 +1,2 @@
+hadoop-dist/target/hadoop-2.7.1/lib/native/libhadoop.so.1.0.0 usr/lib/*
+hadoop-dist/target/hadoop-2.7.1/lib/native/libhdfs.so.0.0.0 usr/lib/*

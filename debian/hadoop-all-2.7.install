@@ -1,0 +1,5 @@
+hadoop-dist/target/hadoop-2.7.1/libexec/hadoop-config.sh usr/share/hadoop-2.7/libexec
+hadoop-dist/target/hadoop-2.7.1/sbin/hadoop-daemon.sh usr/sbin/hadoop-2.7
+hadoop-dist/target/hadoop-2.7.1/sbin/hadoop-daemons.sh usr/sbin/hadoop-2.7
+hadoop-dist/target/hadoop-2.7.1/sbin/start-all.sh usr/sbin/hadoop-2.7
+hadoop-dist/target/hadoop-2.7.1/sbin/stop-all.sh usr/sbin/hadoop-2.7

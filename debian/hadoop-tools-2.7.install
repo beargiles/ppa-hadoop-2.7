@@ -1,0 +1,6 @@
+hadoop-dist/target/hadoop-2.7.1/bin/hadoop usr/bin
+hadoop-dist/target/hadoop-2.7.1/bin/hdfs usr/bin
+hadoop-dist/target/hadoop-2.7.1/bin/mapred usr/bin
+hadoop-dist/target/hadoop-2.7.1/bin/yarn usr/bin
+hadoop-dist/target/hadoop-2.7.1/bin/container-executor usr/bin
+hadoop-dist/target/hadoop-2.7.1/bin/test-container-executor usr/bin

@@ -1,0 +1,4 @@
+hadoop-hdfs-project/hadoop-hdfs-httpfs/target/hadoop-hdfs-httpfs-2.7.1/libexec/httpfs-config.sh usr/share/hadoop-2.7/libexec
+hadoop-hdfs-project/hadoop-hdfs-httpfs/target/hadoop-hdfs-httpfs-2.7.1/sbin/httpfs.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs-httpfs/target/hadoop-hdfs-httpfs-2.7.1/etc/hadoop etc
+hadoop-hdfs-project/hadoop-hdfs-httpfs/target/hadoop-hdfs-httpfs-2.7.1/share/hadoop/httpfs usr/share/hadoop-2.7

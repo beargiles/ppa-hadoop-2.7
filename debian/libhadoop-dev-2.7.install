@@ -1,0 +1,5 @@
+hadoop-dist/target/hadoop-2.7.1/lib/native/libhadoop.a usr/lib/*
+hadoop-dist/target/hadoop-2.7.1/lib/native/libhadooppipes.a usr/lib/*
+hadoop-dist/target/hadoop-2.7.1/lib/native/libhadooputils.a usr/lib/*
+hadoop-dist/target/hadoop-2.7.1/lib/native/libhdfs.a usr/lib/*
+hadoop-dist/target/hadoop-2.7.1/include usr/include/hadoop

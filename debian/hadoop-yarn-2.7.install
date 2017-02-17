@@ -1,0 +1,8 @@
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/libexec/yarn-config.sh usr/share/hadoop-2.7/libexec
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/sbin/start-yarn.sh usr/sbin/hadoop-2.7
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/sbin/stop-yarn.sh usr/sbin/hadoop-2.7
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/sbin/yarn-daemon.sh usr/sbin/hadoop-2.7
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/sbin/yarn-daemons.sh usr/sbin/hadoop-2.7
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/share/hadoop/yarn usr/share/hadoop-2.7
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/etc/hadoop/slaves usr/share/hadoop-2.7/yarn/etc
+hadoop-yarn-project/target/hadoop-yarn-project-2.7.1/share/doc/hadoop/yarn/CHANGES.txt usr/share/doc/hadoop-yarn-2.7

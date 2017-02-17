@@ -1,0 +1,3 @@
+hadoop-common-project/hadoop-minikdc/target/hadoop-minikdc-2.7.1.jar usr/share/java
+hadoop-common-project/hadoop-minikdc/target/hadoop-minikdc-2.7.1-sources.jar usr/share/java
+hadoop-minicluster/target/hadoop-minicluster-2.7.1.jar usr/share/java

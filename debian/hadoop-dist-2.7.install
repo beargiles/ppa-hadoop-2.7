@@ -1,0 +1,4 @@
+hadoop-dist/target/hadoop-2.7.1/LICENSE.txt usr/share/hadoop-2.7/dist
+hadoop-dist/target/hadoop-2.7.1/NOTICE.txt usr/share/hadoop-2.7/dist
+hadoop-dist/target/hadoop-2.7.1/README.txt usr/share/hadoop-2.7/dist
+hadoop-dist/target/hadoop-2.7.1.tar.gz usr/share/hadoop-2.7/dist

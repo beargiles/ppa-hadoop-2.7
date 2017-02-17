@@ -1,0 +1,11 @@
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/libexec/hdfs-config.sh usr/share/hadoop-2.7/libexec
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/hdfs-config.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/distribute-exclude.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/start-dfs.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/start-secure-dns.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/stop-balancer.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/stop-dfs.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/stop-secure-dns.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/sbin/refresh-namenodes.sh usr/sbin/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/share/hadoop/hdfs usr/share/hadoop-2.7
+hadoop-hdfs-project/hadoop-hdfs/target/hadoop-hdfs-2.7.1/share/doc/hadoop usr/share/doc/hadoop-hdfs-2.7

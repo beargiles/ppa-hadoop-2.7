@@ -1,0 +1,161 @@
+Source: hadoop-2.7
+Section: web
+Priority: optional
+Maintainer: Bear Giles <bgiles@invariantproperties.com>
+Uploaders:
+ Bear Giles <bgiles@invariantproperties.com>
+Vcs-Git: git://github.com/beargiles/ppa-hadoop-2.7.git
+Build-Depends: debhelper (>= 9), cdbs, maven,
+ protobuf-compiler (>= 2.5.0), protobuf-compiler (<< 2.5.1),
+ libprotobuf-dev (>= 2.5.0), libprotobuf-dev (<< 2.5.1),
+ libsnappy-dev, libbz2-dev, libjansson-dev, fuse, libfuse-dev
+
+Package: hadoop-dist-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends:
+Description: Hadoop 2.7 distribution tarball (YARN and HDFS)
+ This package contains the Hadoop 2.7 distribution tarball.
+
+Package: libhadoop-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Pre-Depends}
+Description: Shared libraries for Hadoop 2.7 (YARN and HDFS)
+ This package contains the shared libraries used by Hadoop 2.7.
+
+Package: libhadoop-dev-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Pre-Depends}
+Description: Development files for Hadoop 2.7 (YARN and HDFS)
+ This package contains the development files used by native applications
+ that communicate with the Hadoop YARN and HDFS servers.
+
+Package: hadoop-common-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends:
+Description: Hadoop common files
+ This package contains the files common to Hadoop compute nodes and
+ Hadoop edge nodes.
+
+Package: hadoop-embedded-java-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends:
+Description: Hadoop jars with embedded servers.
+ This package provides embedded servers suitable for testing. See
+ https://wiki.apache.org/hadoop/HowToDevelopUnitTests for a brief
+ introduction to Hadoop unit tests.
+ .
+ - hadoop-minicluster provides functional HDFS (MiniDFSCluster) and
+ MapReduce (MiniYARNCluster) servers.
+ .
+ - hadoop-minikdc provides a functional KDC server. It requires the embedded
+ LDAP server from ApacheDS.
+  
+Package: hadoop-client-java-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends:
+Description: Hadoop client jars
+ This package contains Hadoop client jars.
+ .
+ hadoop-hdfs-client-2.8.0-SNAPSHOT.jar
+ hadoop-mapreduce-app-2.7.1.jar
+ hadoop-mapreduce-common-2.7.1.jar
+ hadoop-mapreduce-core-2.7.1.jar
+ hadoop-mapreduce-hs-2.7.1.jar
+ hadoop-mapreduce-hs-plugins-2.7.1.jar
+ hadoop-mapreduce-jobclient-2.7.1.jar
+ hadoop-mapreduce-shuffle-2.7.1.jar
+ hadoop-yarn-client-shuffle-2.7.1.jar
+ .
+ Note: there is no hadoop-hdfs-client-2.7.1.jar - it's version 2.8.0-SNAPSHOT.
+
+Package: hadoop-tools-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Pre-Depends}, libhadoop-2.7, hadoop-2.7.common
+Description: Hadoop command line tools (YARN and HDFS)
+ This package contains the standard Hadoop command-line applications:
+ .
+ * hadoop
+ * hdfs
+ * mapred
+ * yarn
+ * container-executor
+ * test-container-executor
+ .
+ The deprecated 'rcc' tool is not included.
+
+Package: hadoop-hdfs-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: libhadoop-2.7, hadoop-2.7.common
+Description: Hadoop HDFS server.
+ This package contains the Hadoop HDFS server.
+ .
+ This package is provided for reference. You will almost certainly want
+ to build a server from the tarball or a commercial distribution such as
+ Cloudera or HortonWorks.
+
+Package: hadoop-httpfs-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: libhadoop-2.7, hadoop-2.7.common
+Description: Hadoop HTTP File Server
+ This package contains the Hadoop HTTP File Server
+ .
+ This package is provided for reference. You will almost certainly want
+ to build a server from the tarball or a commercial distribution such as
+ Cloudera or HortonWorks.
+
+Package: hadoop-kms-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: libhadoop-2.7, hadoop-2.7.common
+Description: Hadoop Key Management Server (KMS)
+ This package contains the Hadoop KMS server.
+ .
+ This package is provided for reference. You will almost certainly want
+ to build a server from the tarball or a commercial distribution such as
+ Cloudera or HortonWorks.
+
+Package: hadoop-mapreduce-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: libhadoop-2.7, hadoop-2.7.common
+Description: Hadoop MapReduce server.
+ This package contains the Hadoop MapReduce server.
+ .
+ This package is provided for reference. You will almost certainly want
+ to build a server from the tarball or a commercial distribution such as
+ Cloudera or HortonWorks.
+
+Package: hadoop-yarn-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: libhadoop-2.7, hadoop-2.7.common
+Description: Hadoop YARN (MapReduce 2) server.
+ This package contains the Hadoop YARN (MapReduce 2) server.
+ .
+ This package is provided for reference. You will almost certainly want
+ to build a server from the tarball or a commercial distribution such as
+ Cloudera or HortonWorks.
+
+Package: hadoop-all-2.7
+Architecture: all
+Multi-Arch: foreign
+Depends: libhadoop-2.7, hadoop-2.7.common,
+ hadoop-hdfs,
+ hadoop-httpfs,
+ hadoop-kms,
+ hadoop-yarn
+Description: Hadoop 2.7 servers
+ This package contains the standard Hadoop servers.
+ .
+ This package is provided for reference. You will almost certainly want
+ to build a server from the tarball or a commercial distribution such as
+ Cloudera or HortonWorks.

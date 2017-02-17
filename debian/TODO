@@ -1,0 +1,33 @@
+TODO list:
+
+1. handle shared library (in lib/native)
+
+...
+
+2. handle 'share' webapps (tomcat)
+ a. share/hadoop/kms
+ b. share/hadoop/httpfs
+ c. share/hadoop/hdfs
+
+
+3. handle common jars
+ a. share/hadoop/common (...)
+ b. share/hadoop/mapreduce
+ c. share/hadoop/tools
+ d. share/hadoop/yarn
+
+sources,
+...
+
+
+bin/container-executor ?
+bin/test-container-executor ?
+
+
+sbin/distribute-exclude
+sbin/mr-jobhistory-daemon
+sbin/slaves
+sbin/start-secure-dns
+sbin/stop-secure-dns
+sbin/start-balancer
+sbin/stop-balancer
